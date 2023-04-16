@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="login_button_lable">Start with</string>
+    <string name="quiz_welcome_lable">Welcome %1$s</string>
+    <string name="answer_button_lable">Answer</string>
+    <string name="result_title_lable">Your Score</string>
+    <string name="restart_button_lable">Restart</string>
+</resources>
+
