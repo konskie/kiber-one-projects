@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuizAppEvenying</string>
+    <string name="welcome_text">Привет, пользователь</string>
+    <string name="welcome_user">Привет, %1$s</string>
+    <string name="welcome_user_debug">Привет, Елена </string>
+
+    <string name="next_button_text">Продолжить</string>
+    <string name="user_name_debug_value">Николай</string>
+    <string name="user_name_place_holder">Введите имя</string>
+    <string name="answer_button_lable">Ответить</string>
+
+
+
+
+
+
+</resources>
