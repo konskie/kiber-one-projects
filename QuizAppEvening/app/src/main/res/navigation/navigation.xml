@@ -15,5 +15,19 @@
     <fragment
         android:id="@+id/quizFragment"
         android:name="com.nikolai.quizappevenying.quiz.feature.QuizFragment"
-        android:label="QuizFragment" />
+        android:label="QuizFragment" >
+        <action
+            android:id="@+id/action_quizFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_resultFragment2"
+            app:destination="@id/resultFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_resultFragment3"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.nikolai.quizappevenying.quizResult.ResultFragment"
+        android:label="ResultFragment" />
 </navigation>
