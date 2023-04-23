@@ -75,6 +75,7 @@ class QuizFragment: Fragment() {
             } else {
                 findNavController().navigate(R.id.action_quizFragment_to_resultFragment)
             }
+            answerGroup?.clearCheck()
 
         }
 

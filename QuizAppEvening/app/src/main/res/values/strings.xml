@@ -8,6 +8,8 @@
     <string name="user_name_debug_value">Николай</string>
     <string name="user_name_place_holder">Введите имя</string>
     <string name="answer_button_lable">Ответить</string>
+    <string name="restart_button">Перезапуск</string>
+    <string name="user_score">Ваш результат: %1$d </string>
 
 
 
