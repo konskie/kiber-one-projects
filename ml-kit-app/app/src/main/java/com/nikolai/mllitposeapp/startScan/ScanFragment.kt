@@ -42,7 +42,6 @@ class ScanFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val startButton = view.findViewById<Button>(R.id.scan_button)
         startButton.setOnClickListener {
-
             val permission = ContextCompat.checkSelfPermission(requireContext(), Manifest.permission.CAMERA)
             when (permission) {
                 PackageManager.PERMISSION_GRANTED -> {
@@ -55,6 +54,7 @@ class ScanFragment: Fragment() {
         }
 
     }
+
     private fun startScan() {
         val intent = Intent(requireContext(), CameraScanActivity::class.java)
         startActivity(intent)
