@@ -48,3 +48,6 @@ import com.nikolai.mllitposeapp.services.FrameAnalyzer
         cameraProvider.bindToLifecycle(this, cameraSelector, preview, imageAnalyzer)
    }
 }
+
+/*
+

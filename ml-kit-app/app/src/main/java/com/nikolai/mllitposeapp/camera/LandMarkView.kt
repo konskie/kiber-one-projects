@@ -22,6 +22,7 @@ class LandMarkView(
     private val mainPaint = Paint (ANTI_ALIAS_FLAG)
     private var detectorPose: Pose? = null
     private var sizeSource = Size(0,0)
+
     init {
         mainPaint.color = Color.GREEN
         mainPaint.strokeWidth = 4.0F
