@@ -1,0 +1,33 @@
+using System;
+using System.Threading;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Введите пароль из четырёх цифр");
+        int password = 0;
+        bool isLocked = false;
+        int attempts = 0; // Инициализация переменной для подсчёта попыток
+
+        while (true)
+        {
+            if (isLocked)
+                Console.WriteLine("Доступ заблокирован на 2 минуты, попробуйте позже спасибо.");
+            else
+            {
+                password = Convert.ToInt32(Console.ReadLine());
+                if (password == 6969) // Проверка пароля на правильность
+                {
+                    Console.WriteLine("Пароль верный!");
+                    break;
+                }
+                else if (++attempts % 5 == 0)
+                {
+                    isLocked = true;
+                    Thread.Sleep(120000); // Блокировка на 2 минуты
+                }
+            }
+        }
+    }
+}
